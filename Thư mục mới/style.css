@@ -1,0 +1,114 @@
+* {
+  list-style: none;
+  box-sizing: border-box !important;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #f9f9f9;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Roboto Slab;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-container li {
+  float: left;
+  margin: 0 4px;
+}
+#menu {
+  text-align: center;
+  color: white;
+  padding-top: 18%;
+}
+#menu .dattour1 {
+  background-color: #e04f67;
+  border: 1px solid #e04f67;
+  height: 30px;
+  border-radius: 3px;
+  color: white;
+}
+#menu .dattour1:hover {
+  background-color: white !important;
+  color: #e04f67;
+  border: 1px solid white;
+}
+#menu .datphong {
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0);
+  height: 30px;
+}
+#menu .datphong:hover {
+  background-color: white;
+  color: #e04f67;
+}
+.classheader {
+  background-image: url(https://webdulichdanang.com/wp-content/uploads/2018/02/header-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  max-width: 1900px;
+}
+.menuchinh {
+}
+.menuchinh ul {
+  width: 500px;
+  background-color: red;
+  margin: 0 10px 0 0;
+  padding: 0 10px;
+}
+li {
+  float: left;
+  margin: 0 4px;
+}
+.menudulich {
+  width: 70%;
+  margin: 0 auto;
+}
+.capanh2 h3 {
+  text-align: center;
+  background-color: white;
+  line-height: 40px;
+  height: 80px;
+}
+.capanh2 {
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.219);
+}
+.capanh2 img {
+  width: 100%;
+}
+.phan2 {
+  text-align: center;
+  padding: 20px 0;
+}
+/* */
+.tieudetour {
+  text-align: center;
+}
+.listtour {
+  width: 80%;
+  margin: 0 auto;
+}
+.listour1 li,
+.listour2 li {
+  width: 500px;
+}
+.listour1 span,
+.listour2 span {
+  float: right;
+}
+/*end/*/
+
+/*footer*/
+@media screen and (max-width: 820px) {
+  .menuchinh ul {
+    width: 450px;
+  }
+}
